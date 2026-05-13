@@ -1,0 +1,6 @@
+{
+  "model": "text-embedding-3-small",
+  "num_entries": 18,
+  "dimension": 1536,
+  "updated_at": "2026-04-17T11:37:37Z"
+}

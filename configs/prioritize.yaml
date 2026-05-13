@@ -1,0 +1,6 @@
+
+algorithm: sqrt_bias
+
+gamma: 0.4
+rho: 0.95
+epsilon: 0.1
