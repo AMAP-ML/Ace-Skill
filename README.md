@@ -1,6 +1,6 @@
-# ACE-Skill: Bootstrapping Multimodal Agents with Prioritized and Clustered Evolution
+# Ace-Skill: Bootstrapping Multimodal Agents with Prioritized and Clustered Evolution
 
-![ACE-Skill pipeline](assets/pipeline.png)
+![Ace-Skill pipeline](assets/pipeline.png)
 
 ## Repository Layout
 
@@ -31,7 +31,7 @@
 pip install -r requirements.txt
 ```
 
-ACE-Skill needs three kinds of credentials: **LLM endpoints** (reasoning / verifier / experience generator + embedding model), **web-tool API keys** (only for benchmarks that browse the web), and an **image-host key** used by `image_search`.
+Ace-Skill needs three kinds of credentials: **LLM endpoints** (reasoning / verifier / experience generator + embedding model), **web-tool API keys** (only for benchmarks that browse the web), and an **image-host key** used by `image_search`.
 
 ### 1. `run_ace_skill.sh`
 
@@ -74,7 +74,7 @@ zoom:
 
 ### 1. Download Datasets
 
-ACE-Skill is evaluated on four multimodal-agent benchmarks. Pick the ones you need and download them from Hugging Face:
+Ace-Skill is evaluated on four multimodal-agent benchmarks. Pick the ones you need and download them from Hugging Face:
 
 
 | Benchmark       | Link                                                                                         |
@@ -126,9 +126,9 @@ Outputs land in `output/<RUN_ID>/` and `output/<INF_ID>/`, logs in `logs/`, and 
 
 ## Acknowledgments
 
-ACE-Skill builds on and is inspired by prior work on self-evolving and memory-augmented agents. We thank the authors for open-sourcing their code.
+Ace-Skill builds on and is inspired by prior work on self-evolving and memory-augmented agents. We thank the authors for open-sourcing their code.
 
-- **[XSkill](https://github.com/XSkill-Agent/XSkill)** — a framework for continual learning from experiences and skills in multimodal agents. ACE-Skill's experience–skill accumulation pipeline, including the `eval/ace_skill/` modules, the tool-calling engine, and the overall launch-script structure, is built on the XSkill codebase.
+- **[XSkill](https://github.com/XSkill-Agent/XSkill)** — a framework for continual learning from experiences and skills in multimodal agents. Ace-Skill's experience–skill accumulation pipeline, including the `eval/ace_skill/` modules, the tool-calling engine, and the overall launch-script structure, is built on the XSkill codebase.
 - **[MemEvolve](https://github.com/bingreeky/MemEvolve)** — a meta-evolution framework that jointly evolves the memory content and the memory architecture itself.
 
 ## Citation
